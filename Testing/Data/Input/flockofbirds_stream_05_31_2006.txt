@@ -1,0 +1,32 @@
+24438055413.188282  :    (DEBUG) # recorded Wed May 31 16:43:33 2006
+
+24438055413.189693  :    (INFO) 1. command[2] O\x01
+24438055413.194214  :    (INFO) 1. receive[2] \x03<
+24438055413.194336  :    (INFO) 2. command[2] O\x03
+24438055413.199036  :    (INFO) 2. receive[2] \x00\x00
+24438055413.199181  :    (INFO) 3. command[2] O\x00
+24438055413.203671  :    (INFO) 3. receive[2] \x08\xD1
+24438055413.205013  :    (INFO) 4. command[2] O$
+24438055413.256596  :    (INFO) 4. receive[14] \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+24438055413.256828  :    (INFO) 5. command[2] O\x01
+24438055413.261326  :    (INFO) 5. receive[2] \x03<
+24438055413.261768  :    (INFO) 6. command[2] O\x0F
+24438055413.270386  :    (INFO) 6. receive[10] 6DFOB     
+24438055413.272022  :    (INFO) 7. command[3] L\x00\x00
+24438055413.279568  :    (INFO) 8. command[1] Z
+24438055413.280037  :    (INFO) 9. command[2] M\x01
+24438055413.280518  :    (INFO) 10. command[1] B
+24438055413.299614  :    (INFO) 10. receive[25] \xB2\x09\x05yQ~D\x02^Hi_[?>\x7Ft\x05Pz__\x007\x00
+24438055413.307171  :    (INFO) 11. command[1] Y
+24438055413.307575  :    (INFO) 12. command[1] @
+24438055413.31702  :    (INFO) 12. receive[13] \xB2\x09\x05yP~\x19\x1F[\x01\x17u\x00
+24438055413.324272  :    (INFO) 12. receive[13] \xB2\x09\x05yP~\x17\x1FZ\x01\x18u\x00
+24438055413.332752  :    (INFO) 12. receive[13] \xB2\x09\x05yP~\x17\x1FZ\x01\x18u\x00
+24438055413.342239  :    (INFO) 12. receive[13] \xB2\x09\x05yP~\x17\x1FZ\x01\x18u\x00
+24438055413.351749  :    (INFO) 12. receive[13] \xB2\x09\x05yP~\x17\x1FZ\x01\x18u\x00
+24438055413.361397  :    (INFO) 12. receive[13] \xB2\x09\x05yP~\x17\x1FZ\x01\x18u\x00
+24438055413.370941  :    (INFO) 12. receive[13] \xB2\x09\x05yP~\x17\x1FZ\x01\x18u\x00
+24438055413.380455  :    (INFO) 12. receive[13] \xB2\x09\x04yP~\x18\x1F\\\x01\x17u\x00
+24438055413.390079  :    (INFO) 12. receive[13] \xB2\x09\x04yQ~\x18\x1F\\\x01\x17u\x00
+24438055413.399616  :    (INFO) 12. receive[13] \xB2\x09\x05yP~\x17\x1FZ\x01\x18u\x00
+24438055413.401623  :    (INFO) 13. command[1] B

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- Example of settings for Claron Technologies MicronTracker2  : -->    
+<!-- The tags are:                                                 -->
+<!-- tracking_system: Root element, encompassing all of the data.  -->
+<!--                  Must have the attribute 'type' set to        -->
+<!--                  "micron".                                    -->   
+<!-- refresh_rate: Get data from the tracker at this rate.         --> 
+<!-- camera_calibration_directory: Where are the calibration files -->
+<!--                              for the tracking system.         -->
+<!-- initialization_file: Initial settings for tracker.            -->
+<!-- templates_directory: Directory containing the marker template -->
+<!--                      files.                                   -->
+<!-- tool: Has optional attribute 'usage' if set to "reference"    -->
+<!--       this tool will be used as a dynamic reference frame.    -->
+<!--       All transformation will be reported relative to this    -->
+<!--       reference frame.                                        -->
+<!-- marker_name: Marker template associated with the specific     -->
+<!--              tool. This is a template name found in the       -->
+<!--              templates_directory.                             --> 
+<!-- name: Unique string by which the developer can later reference-->
+<!--       the tool inside the program.                            -->
+<!-- calibration_file: Optional calibration file. XML file         -->
+<!--                   containing the tool's calibration data.     -->
+<!--                                                               -->
+
+<tracking_system type = "micron">
+
+    <refresh_rate> 20 </refresh_rate>
+    
+    <camera_calibration_directory>
+         @IGSTK_SOURCE_DIR@/Testing/Data/Input/CalibrationFiles
+    </camera_calibration_directory>
+    
+    <initialization_file> 
+      @IGSTK_SOURCE_DIR@/Testing/Data/Input/MicronTracker.ini     
+    </initialization_file>
+    
+    <templates_directory> 
+      @IGSTK_SOURCE_DIR@/Testing/Data/Input/Markers     
+    </templates_directory>
+    
+    <tool usage="reference">
+      <name> referenceMarker </name> 
+    </tool>
+
+    <tool>
+      <name> bayonetProbe </name> 
+      <marker_name> t1 </marker_name> 
+      <calibration_file>@IGSTK_SOURCE_DIR@/Testing/Data/Input/bayonetCalibration.xml</calibration_file>
+    </tool>
+
+    <tool>
+      <name> usProbe </name> 
+      <marker_name> t2 </marker_name> 
+      <calibration_file>@IGSTK_SOURCE_DIR@/Testing/Data/Input/USCalibration.xml</calibration_file>
+    </tool>
+
+</tracking_system>
